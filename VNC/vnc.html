@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="vnc.css">
+    <script src="https://kit.fontawesome.com/418fb55ca9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <section class="header">
+        <nav>
+            <a href="vnc.html"><img src="logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="https://www.vijayanagarcollege.org/about-our-college/">ABOUT</a></li>
+                    <li><a href="https://www.vijayanagarcollege.org/ug-courses/">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="https://www.vijayanagarcollege.org/contact/">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>VIJAYANAGARA SRI KRISHNADEVARAYA UNIVERSITY</h1>
+            <p> Vijayanagara sri Krishnadevaraya university is a Public university established in 2010 by the government
+                 of karnatakain Ballari distict of Karnataka,India through the Karnataka state University Act,2000.
+                 <br>it has been named after Krishnadevaraya,former emperor of the Vijayanagara Empire.</p>
+            <a href="https://www.vijayanagarcollege.org/" class="hero-btn">Visit Us To Know More</a>    
+        </div>
+      </section>
+
+<!------------------course --------------->
+ 
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p> BCA , BBA , B.Sc-Pysics,Mathematics,Electronics and Computer Science </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Intermediate in the university offers a number of disciplines in science and commers subjects,
+                also to better one's life by brining out skills that were inherent till then.
+                Not only communication skills but persentstion skills also are developed in university.</p>
+        </div>  
+        <div class="course-col">      
+            <h3>Degree</h3>
+            <p>UG course in the university offers a vast number of disciplines in science and commers subjects,
+                also to better one's life by brining out skills that were inherent till then.
+                Not only communication skills but persentstion skills also are developed through the UG courses in university.</p>
+        </div>        
+        <div class="course-col">        
+            <h3>Post-graduation</h3>
+            <p>PG course in the university offers a vast number of disciplines in science, Commers and Arts subjects,
+                also to better one's life by brining out skills that were inherent till then.
+                Not only communication skills but persentstion skills also are developed through the PG courses in university.</p>    
+        </div>
+    </div>
+</section>
+
+<!-------Campus--------->
+
+<section class="campus">
+    <h1>Our Campus</h1>
+    <p>Campus includes Libraries,Lecture halls,residence halls, student centers and park-like settings</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="campus5.jpg">
+            <div class="layer">
+               <h3>Vijayanagara-campus-1</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="campus1.jpg">
+            <div class="layer">
+               <h3>Vijayanagara-campus-2</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="banner.jpg">
+            <div class="layer">
+               <h3>Vijayanagara-campus-3</h3>
+            </div>
+        </div>
+       
+    </div>
+</section>
+
+<!--     ----------facilities---------    -->
+
+<section class="Facilities">
+
+    <h1>Our Facilities</h1>
+    <p>Owned and controlled buildings,grounds,space,property and other facilities.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.jpg">
+            <h3>word class library</h3>
+            <p>collection of source of information and similar resources,made accessible to a defined community for reference</p>
+        </div>
+        <div class="facilities-col">
+            <img src="c-lab.jpg">
+            <h3>chemistry lab</h3>
+            <p>The Chemistry Laboratory conducts fundamental studies of highway materials to understand both failure mechanisms and superior performance.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="lab.jpg">
+            <h3>computer lab</h3>
+            <p>Students, faculty and staff have access to the computer labs, which provide the tools and technologies to produce websites, edit papers, complete class</p>
+        </div>
+    </div>
+</section>
+
+<!--     ----------call to action---------    -->
+
+<section class="cta">
+   <h1>Enroll for our various courses and<br> can enjoy our facilities</h1>
+   <a href="https://www.vijayanagarcollege.org/contact/" class="hero-btn">CONTACT US</a>
+</section>
+
+
+<!--     ----------footer---------    -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p> The vice-president Dr.Zakir Hussain inaugurated the college on 01.06.1964. Delivering the inaugural address 
+        he hoped that the college would work<br> for the improvement of a lot of
+          students of this backward area.</p>
+
+        <div class="icons">
+            <a href="https://www.instagram.com/explore/locations/253505174752770/vijayanagar-college-hospet/"><i class="fa fa-instagram"></i></a>
+           
+            <a href="https://www.facebook.com/VijayanagarCollegeHospet/"><i class="fa fa-facebook"></i></a>
+        </div>  
+</section>
+
+
+      <script>
+        var navLinks =document.getElementById("navLinks");
+
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right ="-200px";
+        }
+
+      </script>
+</body>
+</html>
